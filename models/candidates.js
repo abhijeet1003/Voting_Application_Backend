@@ -27,7 +27,7 @@ const candidateSchema = new mongoose.Schema({
       },
     },
   ],
-  voterCount: {
+  voteCount: {
     type: Number,
     default: 0,
   },
